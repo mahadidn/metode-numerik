@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3;
+}
+
+h1{
+    text-align: center;
+}
+
+form {
+    margin-top: 50px;
+    margin-left :20px;
+}
+.conten{
+    display: flex;
+}
+.conten2{
+    margin-top: 10px;
+    
+}
+.conten2 input{
+    margin-bottom: 10px;
+    /* background-color: #B0C4DE; */
+}
+#upperBound::placeholder {
+    color: rgb(68, 68, 68); /* Ganti dengan warna placeholder yang diinginkan untuk input dengan ID upperBound */
+}
+#upperBound{
+    background-color: #B0C4DE;
+    width: 80px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: -28px;
+}
+#userFunction{
+    height: 22px;
+    border-radius: 3px;
+    margin-left: -28px;
+}
+#userFunction{
+    height: 22px;
+    border-radius: 3px;
+    margin-left: -20px;
+}
+
+#lowerBound{
+    background-color: #B0C4DE;
+    width: 80px;
+    height: 22px;
+    border-radius: 3px;
+    margin-left: -28px;
+}
+
+
